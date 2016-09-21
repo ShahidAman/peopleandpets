@@ -40,7 +40,7 @@ namespace PeopleAndPets.Controllers
             return View(model);
         }
 
-        public async Task<ActionResult> About()
+        public ActionResult About()
         {
             ViewBag.Message = "People and Pets.";
 
