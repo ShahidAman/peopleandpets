@@ -10,7 +10,7 @@ namespace PeopleAndPets.Tests
     public class PeopleAndPetsExtensionsTests
     {
         [Fact]
-        public async void GetAllCatsOwnedByMales_ReturnOnlyCats()
+        public void GetAllCatsOwnedByMales_ReturnOnlyCats()
         {
             var petsList = HomeControllerTests.GetPeopleWithPets();
 
@@ -25,7 +25,7 @@ namespace PeopleAndPets.Tests
 
 
         [Fact]
-        public async void GetAllCatsOwnedByFemales_ReturnOnlyCats()
+        public void GetAllCatsOwnedByFemales_ReturnOnlyCats()
         {
             var petsList = HomeControllerTests.GetPeopleWithPets();
 
